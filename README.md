@@ -1,17 +1,18 @@
 # Simple Chatbot
 
-This project is a simple chatbot application built using Python. The chatbot processes user input and provides responses based on predefined logic.
+This project is a simple chatbot application built using Python and LangChain. The chatbot processes user input and provides responses based on predefined logic and language model capabilities.
 
 ## Features
 
-- Handles user input and provides responses.
-- Simple and easy-to-understand logic.
+- Handles user input and provides intelligent responses.
+- Built with LangChain for enhanced conversational capabilities.
 - Lightweight and minimal dependencies.
 
 ## Requirements
 
 - Python 3.x
-- Required libraries (if any, based on `app.py`)
+- LangChain library
+- Required libraries (based on `app.py`)
 
 ## Installation
 
@@ -31,27 +32,12 @@ This project is a simple chatbot application built using Python. The chatbot pro
 Run the chatbot application:
 ```bash
 streamlit run app.py
+```
 
 Interact with the chatbot through the Streamlit interface in your web browser.
 
 ## File Structure
 
-- `app.py`: Main application file containing the chatbot logic.
-- `requirements.txt`: List of dependencies (if applicable).
-
-## Example
-
-```bash
-> Hello
-Chatbot: Hi there! How can I assist you today?
-> What is your name?
-Chatbot: I am your friendly chatbot.
-```
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests for improvements or new features.  
+- `app.py`: Main application file containing the chatbot logic and LangChain integration.
+- `requirements.txt`: List of dependencies.
+- `README.md`: Documentation for the project.
